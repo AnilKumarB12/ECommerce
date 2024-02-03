@@ -19,7 +19,7 @@ const ProductCard = () => {
           ></img>
         </div>
         <div className="product-details">
-          <h6 className="brand">Havels</h6>
+          <h6 className="brand mb-2">Havells</h6>
           <h5 className="product-title">
             Kids headphones bulk 10 pack multi colored for students
           </h5>
@@ -30,7 +30,7 @@ const ProductCard = () => {
             edit={false}
             activeColor="#ffd700"
           />
-          <p className="price">100</p>
+          <p className="price">₹100</p>
         </div>
         <div className="action-bar position-absolute gap-15">
           <div className="d-flex flex-column gap-15">

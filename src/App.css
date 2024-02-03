@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 !important;
   padding: 0;
   box-sizing: border-box;
 }
@@ -32,7 +32,9 @@ a {
   box-shadow: none;
   border-color: var(--color-febd69);
 }
-
+.gap-5 {
+  gap: 5px;
+}
 .gap-10 {
   gap: 10px;
 }
@@ -45,11 +47,12 @@ a {
 .button {
   background-color: var(--color-232f3e);
   color: white;
-  padding: 13px 33px;
-  border-radius: 25px;
+  padding: 10px 20px;
+  border-radius: 20px;
 }
 .button:hover {
   background-color: var(--color-febd69);
+  text-decoration: none;
   color: #131921;
 }
 
@@ -302,4 +305,42 @@ footer .input-group .form-control {
   right: 15px;
 }
 /* Product part Ends Here*/
+
+/*special-product-card part*/
+.special-product-card{
+  padding: 20px 10px;
+  border-radius: 10px;
+  background-color: white;
+}
+/*special-product-card part end here*/
+
+/*famous wrapper part*/
+.famous-card .famous-content{
+  top: 10%;
+  left: 5%;
+}
+.famous-card  img{
+  border-radius: 10px;
+}
+.famous-content h5{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400px;
+  color: white;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+}
+.famous-content h6{
+  font-size: 25px;
+  line-height: 38px;
+  font-weight: 500;
+  color: white;
+}
+.famous-content p{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  color: white;
+}
+/*famous wrapper part ends here*/
 /* Home Page Ends Here*/

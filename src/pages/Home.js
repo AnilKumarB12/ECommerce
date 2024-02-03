@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Marquee from "react-fast-marquee";
 import BlogCard from "../components/BlogCard";
 import ProductCard from "../components/ProductCard";
+import SpecialProduct from "../components/SpecialProduct";
 
 const Home = () => {
   return (
@@ -21,10 +22,10 @@ const Home = () => {
                   <h4>SUPERCHARGED FOR PROS.</h4>
                   <h5>iPAD S13+ Pro.</h5>
                   <p>
-                    From $199.00 or
-                    <br /> $41.62/mo
+                    From ₹199.00 or
+                    <br /> ₹41.62/mo
                   </p>
-                  <Link className="button">BUY NOW</Link>
+                  <Link className="button mt-1">BUY NOW</Link>
                 </div>
               </div>
             </div>
@@ -40,8 +41,8 @@ const Home = () => {
                     <h4>BEST SALE</h4>
                     <h5>Laptop Max</h5>
                     <p>
-                      From $1699.00 or
-                      <br /> $64.62/mo
+                      From ₹1699.00 or
+                      <br /> ₹64.62/mo
                     </p>
                   </div>
                 </div>
@@ -55,8 +56,8 @@ const Home = () => {
                     <h4>NEW ARRIVAL</h4>
                     <h5>BUY IPad Air</h5>
                     <p>
-                      From $599.00 or
-                      <br /> $49.62/mo
+                      From ₹599.00 or
+                      <br /> ₹49.62/mo
                     </p>
                   </div>
                 </div>
@@ -210,7 +211,81 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <h3 className="section-heading">Featured Collection</h3>
+              <h3 className="section-heading mb-2">Featured Collection</h3>
+            </div>
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+            <ProductCard />
+          </div>
+        </div>
+      </section>
+      <section className="famous-wrapper py-5 home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-1.webp" className="img-fluid" alt="productImage"></img>
+                <div className="famous-content position-absolute">
+                <h5>BIG SCREEN</h5>
+                <h6>Smart Watch series 7.</h6>
+                <p>From ₹1000 or ₹250/mo for 3mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-2.webp" className="img-fluid" alt="productImage"></img>
+                <div className="famous-content position-absolute">
+                <h5 className="text-dark">STUDIO DISPLAY</h5>
+                <h6 className="text-dark">600 nits of brightness.</h6>
+                <p className="text-dark">From ₹10000 or ₹2500/mo for 3mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-3.webp" className="img-fluid" alt="productImage"></img>
+                <div className="famous-content position-absolute">
+                <h5 className="text-dark">SMARTPHONES</h5>
+                <h6 className="text-dark">Smartphone 14 pro.</h6>
+                <p className="text-dark">From ₹5000 or ₹1650/mo for 3mo</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-3">
+              <div className="famous-card position-relative">
+                <img src="images/famous-4.webp" className="img-fluid" alt="productImage"></img>
+                <div className="famous-content position-absolute">
+                <h5 className="text-dark">HOME SPEAKERS</h5>
+                <h6 className="text-dark">Room-Filling sound</h6>
+                <p className="text-dark"> className="text-dark"From ₹699 or ₹116/mo for 3mo</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="special-wrapper py-5 home-wrapper-2">
+      <div className="container-xxl">
+        <div className="row">
+          <div className="col-12">
+            <div className="section-heading mb-2">Special Products</div>
+          </div>
+        </div>
+        <div className="row">
+          <SpecialProduct/>
+          <SpecialProduct/>
+          <SpecialProduct/>
+          <SpecialProduct/>
+        </div>
+      </div>
+      </section>
+      <section className="popular-wrapper py-5  home-wrapper-2">
+        <div className="container-xxl">
+          <div className="row">
+            <div className="col-12">
+              <h3 className="section-heading mb-2">Our Popular Products</h3>
             </div>
             <ProductCard />
             <ProductCard />

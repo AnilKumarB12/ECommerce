@@ -59,7 +59,7 @@ const Header = () => {
                   <Link className="d-flex align-items-center gap-10 text-white">
                     <img src="images/wishlist.svg" alt="wishlist"></img>
                     <p className="mb-0">
-                      Favourite <br /> Wishlist
+                      Favorite <br /> Wishlist
                     </p>
                   </Link>
                 </div>
@@ -128,10 +128,10 @@ const Header = () => {
                 </div>
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
-                    <NavLink className="nav" to="/home">
+                    <NavLink className="nav" to="/">
                       Home
                     </NavLink>
-                    <NavLink className="nav" to="/our store">
+                    <NavLink className="nav" to="/store">
                       Our Store
                     </NavLink>
                     <NavLink className="nav" to="/blogs">
