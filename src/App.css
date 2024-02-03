@@ -24,8 +24,8 @@ body {
   font-family: "Rubik", sans-serif;
   font-size: small;
 }
-a {
-  text-decoration: none;
+a, Link {
+  text-decoration: none !important; 
   display: inline-block;
 }
 .form-control:focus {
@@ -343,4 +343,12 @@ footer .input-group .form-control {
   color: white;
 }
 /*famous wrapper part ends here*/
+
+/*BreadCrumb part*/
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+}
+/*BreadCrumb part ends here*/
 /* Home Page Ends Here*/
+
