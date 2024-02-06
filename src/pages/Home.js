@@ -281,6 +281,7 @@ const Home = () => {
         </div>
       </div>
       </section>
+      {/* pending */}
       <section className="popular-wrapper py-5  home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
@@ -294,7 +295,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="marque-wrapper py-5 ">
+      <section className="marque-wrapper py-5 home-wrapper-2">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">

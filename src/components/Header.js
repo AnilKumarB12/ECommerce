@@ -34,6 +34,7 @@ const Header = () => {
             <div className="col-5">
               <div className="input-group">
                 <input
+                  id="inp"
                   type="text"
                   className="form-control py-2 "
                   placeholder="Search Product Here"
