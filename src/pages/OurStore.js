@@ -3,9 +3,10 @@ import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/MetaD";
 import ReactStars from "react-rating-stars-component";
 import ProductCard from '../components/ProductCard';
+import Colors from '../components/Colors';
 
 const OurStore = () => {
-  const [grid, setGrid]=useState(4);
+  const [grid, setGrid] = useState(4);
 
   return (
     <>
@@ -65,24 +66,7 @@ const OurStore = () => {
                   </div>
                   <h5 className="sub-title">Colors</h5>
                   <div>
-                    <ul className="colors ps-0">
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                      <li></li>
-                    </ul>
+                    <Colors />
                   </div>
                   <h5 className="sub-title">Sizes</h5>
                   <div>
@@ -156,7 +140,7 @@ const OurStore = () => {
               <div className="filter-sort-grid mb-4">
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="d-flex align-items-center gap-10">
-                    <p className="mb-0 d-block" style={{"width":"100px"}}>Sort By</p>
+                    <p className="mb-0 d-block" style={{ "width": "100px" }}>Sort By</p>
                     <select name="" id="" className="form-control form-select">
                       <option value="manual">Featured</option>
                       <option value="best-selling" selected>Best selling</option>
@@ -172,24 +156,24 @@ const OurStore = () => {
                   <div className="d-flex align-items-center gap-10">
                     <p className="totalProducts mb-0">21 Products</p>
                     <div className="d-flex gap-10 align-items-center grid">
-                    <img  onClick={()=>{setGrid(3)}} src="images/gr4.svg" className="d-block img-fluid" alt="grid" />
-                    <img onClick={()=>{setGrid(4)}}  src="images/gr3.svg" className="d-block img-fluid" alt="grid" />
-                      <img  onClick={()=>{setGrid(6)}} src="images/gr2.svg" className="d-block img-fluid" alt="grid" />
-                      <img onClick={()=>{setGrid(12)}}  src="images/gr.svg" className="d-block img-fluid" alt="grid" />
+                      <img onClick={() => { setGrid(3) }} src="images/gr4.svg" className="d-block img-fluid" alt="grid" />
+                      <img onClick={() => { setGrid(4) }} src="images/gr3.svg" className="d-block img-fluid" alt="grid" />
+                      <img onClick={() => { setGrid(6) }} src="images/gr2.svg" className="d-block img-fluid" alt="grid" />
+                      <img onClick={() => { setGrid(12) }} src="images/gr.svg" className="d-block img-fluid" alt="grid" />
                     </div>
                   </div>
                 </div>
               </div>
               <div className="products-list pb-5">
                 <div className='d-flex gap-10 flex-wrap'>
-                <ProductCard grid={grid}/>
-                <ProductCard grid={grid}/>
-                <ProductCard grid={grid}/>
-                <ProductCard grid={grid}/>
-                <ProductCard grid={grid}/>
-                <ProductCard grid={grid}/>
-                <ProductCard grid={grid}/>
-                <ProductCard grid={grid}/>
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
+                  <ProductCard grid={grid} />
                 </div>
               </div>
             </div>

@@ -25,7 +25,7 @@ const Home = () => {
                     From ₹199.00 or
                     <br /> ₹41.62/mo
                   </p>
-                  <Link className="button mt-1">BUY NOW</Link>
+                  <Link className="button mt-2">BUY NOW</Link>
                 </div>
               </div>
             </div>

@@ -47,7 +47,7 @@ a, Link {
 .button {
   background-color: var(--color-232f3e);
   color: white;
-  padding: 10px 20px;
+  padding: 10px 22px;
   border-radius: 20px;
 }
 .button:hover {
@@ -490,3 +490,76 @@ footer .input-group .form-control {
   color: var(--color-777777);
 }
 /* Contact Page Ends Here*/
+
+/* Compare Product Page*/
+.compare-product-card{
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+}
+.compare-product-card .cross,.wishlist-card .cross{
+  top: 15px;
+  right: 15px;
+  width: 25px;
+  padding: 3px;
+  cursor: pointer;
+}
+.compare-product-details h5.title, .wishlist-card h5.title{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+.compare-product-details h6.price, .wishlist-card h5.price{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-product-card .product-detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top:1px solid rgba(0,0, 0, 0.1);
+}
+
+/* Compare Product  Page Ends Here*/
+/* awth card*/
+.awth-card{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+  margin:30px auto !important;
+  border-radius: 10px;
+}
+.awth-card h3{
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.awth-card .form-control{
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+  color: var(--color-131921);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.awth-card .forgot{
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-1c1c1b);
+}
+.awth-card .sign-up{
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
+}
+.awth-card .sign-up:hover{
+  background-color: var(--color-232f3e);
+  color: white;
+}
+.awth-card p{
+  font-size: 13px;
+  color: var(--color-777777);
+}
+/* awth card Ends Here*/
