@@ -267,6 +267,21 @@ footer .input-group .form-control {
   font-weight: 500;
   margin-bottom: 30px;
 }
+.single-block-card h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-1c1c1b);
+}
+.single-block-card p{
+  font-size: 14px;
+  color: var(--color-777777);
+
+}
+.single-blog-card a{
+  font-size: 18px;
+  color: var(--color-777777);
+  margin-bottom: 20px;
+}
 /* Blog part Ends Here*/
 /* Product part */
 .product-card {
@@ -563,3 +578,39 @@ footer .input-group .form-control {
   color: var(--color-777777);
 }
 /* awth card Ends Here*/
+
+/* Policy Pages*/
+.policy{
+  background-color: white;
+  padding: 30px;
+}
+/* Policy Page Ends*/
+
+/* Main Product Page*/
+.underline{
+  text-decoration: underline !important;
+}
+.review-inner-wrapper{
+  background-color: white;
+  padding: 30px;
+}
+.review-head {
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+padding-bottom: 20px;
+}
+.review-head h4{
+font-size: 18px;
+color: var(--color-1c1c1b);
+}
+.review-head p,
+.review-head a{
+font-size: 14px;
+color: var(--color-777777);
+margin-bottom: 0px !important;
+
+}
+.review-form h4{
+  font-size: 16px;
+  color: var(--color-777777);
+}
+/* Main Product Page Ends*/

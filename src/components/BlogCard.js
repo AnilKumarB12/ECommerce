@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const BlogCard = () => {
   return (
-      <div className="blog-card">
+      <div className="blog-card mt-3">
         <div className="card-image">
           <img src="images/blog-1.jpg" className="img-fluid w-100" alt="blog"></img>
         </div>
@@ -14,7 +14,7 @@ const BlogCard = () => {
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
-          <Link className="button" to="">
+          <Link className="button mt-3" to="/blog/:id">
             Read More
           </Link>
         </div>

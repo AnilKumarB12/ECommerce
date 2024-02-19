@@ -8,6 +8,7 @@ const ResetPassword = () => {
                 <Meta title={"Reset Password"} />
             <BreadCrumb title="Reset Password" />
             <div className="login-wrapper  py-5 home-wrapper-2">
+        <div className="container-xxl">
         <div className="row">
           <div className="col-12">
             <div className="awth-card">
@@ -25,6 +26,7 @@ const ResetPassword = () => {
               </form>
             </div>
           </div>
+        </div>
         </div>
       </div>
             </>

@@ -8,6 +8,7 @@ const SignUp = () => {
       <Meta title={"Sign Up"} />
       <BreadCrumb title="Sign Up" />
       <div className="login-wrapper  py-5 home-wrapper-2">
+        <div className="container-xxl">
         <div className="row">
           <div className="col-12">
             <div className="awth-card">
@@ -34,6 +35,7 @@ const SignUp = () => {
               </form>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </>
