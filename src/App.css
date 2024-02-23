@@ -53,12 +53,14 @@ a, Link {
   color: white;
   padding: 8px 22px;
   border-radius: 20px;
+  font-size: medium;
 }
 .button:hover {
   background-color: var(--color-febd69);
   text-decoration: none;
   color: #030405;
 }
+
 
 /* Header Part */
 header {
@@ -571,7 +573,7 @@ footer .input-group .form-control {
 }
 .sign-up{
   background-color: var(--color-febd69);
-  color: var(--color-030405);
+  color: var(--color-030405) !important;
 }
 .sign-up:hover{
   background-color: var(--color-232f3e);
