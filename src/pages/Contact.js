@@ -45,13 +45,13 @@ const Contact = () => {
                     <ul className='ps-0'>
                       <li className="mb-3 d-flex gap-15 align-items-center"><IoIosHome />
                         <address className="mb-0">
-                          Hno:277 , Near village Kabbala , Davanagere, Karnataka
+                          Hno:2 , Near village Kabbala, Davanagere, Karnataka
                         </address></li>
                       <li className="mb-3 d-flex gap-15 align-items-center"><IoMdCall />
-                        <a href="tel:+91 8264954234">+91 8264954234</a></li>
+                        <a href="tel:+91 9986663265">+91 9986663265</a></li>
                       <li className="mb-3 d-flex gap-15 align-items-center"><IoIosMail />
                         <a href="mailto:navdeepdahiya753@gmail.com">
-                          navdeepdahiya753@gmail.com
+                          anilkumar@gmail.com
                         </a></li>
                       <li className="mb-3 d-flex gap-15 align-items-center" ><IoMdInformationCircle />
                         <p className="mb-0">Monday – Friday 10 AM – 8 PM</p></li>
