@@ -21,7 +21,7 @@ const Header = () => {
               <p className="text-white mb-0 d-flex justify-content-end">
                 Helpline:
                 <a className="text-white" href="tel:+91 1234567890">
-                  +91234573653
+                  +998666326X
                 </a>
               </p>
             </div>
@@ -33,7 +33,7 @@ const Header = () => {
           <div className="row align-items-center">
             <div className="col-2">
               <h2>
-                <Link className="text-white"> DevCorner</Link>
+                <Link className="text-white">PulseGear</Link>
               </h2>
             </div>
             <div className="col-5">
