@@ -18,6 +18,7 @@ const Home = () => {
                 src="images/main-banner-1.jpg"
                 className=" img-fluid rounded-3"
                 alt="main banner"
+                loading="lazy"
               ></img>
               <div className="main-banner-content position-absolute">
                 <h4>SUPERCHARGED FOR PROS.</h4>
@@ -37,6 +38,7 @@ const Home = () => {
                   src="images/catbanner-01.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
+                  loading="lazy"
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>BEST SALE</h4>
@@ -52,6 +54,7 @@ const Home = () => {
                   src="images/catbanner-03.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
+                  loading="lazy"
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>NEW ARRIVAL</h4>
@@ -67,6 +70,7 @@ const Home = () => {
                   src="images/catbanner-02.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
+                  loading="lazy"
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>15% OFF</h4>
@@ -83,6 +87,7 @@ const Home = () => {
                   src="images/catbanner-04.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
+                  loading="lazy"
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>FREE ENGRAVING</h4>
