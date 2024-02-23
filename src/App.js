@@ -21,6 +21,7 @@ import RefundPolicy from "./pages/RefundPolicy";
 import ShippingPolicy from "./pages/ShippingPolicy";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import SingleProduct from "./pages/SingleProduct";
+import Checkout from "./pages/Checkout";
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
             <Route path="Wishlist" element={<Wishlist />} />
             <Route path="login" element={<Login />} />
             <Route path="cart" element={<Cart />} />
+            <Route path="checkout" element={<Checkout />} />
             <Route path="SignUp" element={<SignUp />} />
             <Route path="ForgotPasswords" element={<ForgotPasswords />} />
             <Route path="ResetPassword" element={<ResetPassword />} />
