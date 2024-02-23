@@ -1,7 +1,7 @@
 import React from 'react';
 import BreadCrumb from "../components/BreadCrumb";
 import Meta from "../components/MetaD";
-import { FaHome } from "react-icons/fa";
+import { AiOutlineHome } from "react-icons/ai";
 import { IoMdCall } from "react-icons/io";
 import { IoIosMail } from "react-icons/io";
 import { IoMdInformationCircle } from "react-icons/io";
@@ -44,7 +44,7 @@ const Contact = () => {
                   <h3 className='contact-title mb-4'> Get in touch with us</h3>
                   <div>
                     <ul className='ps-0'>
-                      <li className="mb-3 d-flex gap-15 align-items-center"><FaHome />
+                      <li className="mb-3 d-flex gap-15 align-items-center"><AiOutlineHome />
                         <address className="mb-0">
                           Hno:277 , Near village Kabbala , Davanagere, Karnataka
                         </address></li>
