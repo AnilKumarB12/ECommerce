@@ -9,7 +9,7 @@ import menu from "../images/menu.svg";
 const Header = () => {
   return (
     <>
-      <header className="header-top-strip py-3">
+      <header className="header-top-strip">
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
@@ -21,14 +21,14 @@ const Header = () => {
               <p className="text-white mb-0 d-flex justify-content-end">
                 Helpline:
                 <a className="text-white" href="tel:+91 1234567890">
-                  +998666326X
+                +998666326X
                 </a>
               </p>
             </div>
           </div>
         </div>
-      </header>
-      <header className="header-upper py-3">
+  </header> 
+      <header className="header-upper py-2">
         <div className="container-xxl">
           <div className="row align-items-center">
             <div className="col-2">
@@ -91,7 +91,7 @@ const Header = () => {
           </div>
         </div>
       </header>
-      <header className="header-bottom py-3">
+      <header className="header-bottom">
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">

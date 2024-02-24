@@ -10,7 +10,7 @@ import { services } from "../utils/data";
 const Home = () => {
   return (
     <>
-      <Container class1="home-wrapper-1 py-5">
+      <Container class1="home-wrapper-1 py-4">
         <div className="row">
           <div className="col-6">
             <div className="main-banner position-relative">
@@ -18,7 +18,6 @@ const Home = () => {
                 src="images/main-banner-1.jpg"
                 className=" img-fluid rounded-3"
                 alt="main banner"
-                loading="lazy"
               ></img>
               <div className="main-banner-content position-absolute">
                 <h4>SUPERCHARGED FOR PROS.</h4>
@@ -38,7 +37,7 @@ const Home = () => {
                   src="images/catbanner-01.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
-                  loading="lazy"
+
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>BEST SALE</h4>
@@ -54,7 +53,7 @@ const Home = () => {
                   src="images/catbanner-03.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
-                  loading="lazy"
+
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>NEW ARRIVAL</h4>
@@ -70,7 +69,7 @@ const Home = () => {
                   src="images/catbanner-02.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
-                  loading="lazy"
+
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>15% OFF</h4>
@@ -87,7 +86,7 @@ const Home = () => {
                   src="images/catbanner-04.jpg"
                   className=" img-fluid rounded-3"
                   alt="main banner"
-                  loading="lazy"
+
                 ></img>
                 <div className="small-banner-content position-absolute">
                   <h4>FREE ENGRAVING</h4>
@@ -101,7 +100,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container class1="home-wrapper-2 py-5">
+      <Container class1="home-wrapper-2 py-4">
         <div className="row">
           <div className="col-12">
             <div className="services d-flex align-items-center justify-content-between">
@@ -123,7 +122,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container class1="home-wrapper-3 py-5">
+      <Container class1="home-wrapper-3 py-4">
         <div className="row">
           <div className="col-12">
             <div className="categories d-flex justify-content-between flex-wrap align-items-center">
@@ -187,7 +186,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container class1="featured-wrapper py-5  home-wrapper-2">
+      <Container class1="featured-wrapper py-4 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading mb-2">Featured Collection</h3>
@@ -198,7 +197,7 @@ const Home = () => {
           <ProductCard />
         </div>
       </Container>
-      <Container class1="famous-wrapper py-5 home-wrapper-2">
+      <Container class1="famous-wrapper py-4 home-wrapper-2">
         <div className="row">
           <div className="col-3">
             <div className="famous-card position-relative">
@@ -242,7 +241,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container class1="special-wrapper py-5 home-wrapper-2">
+      <Container class1="special-wrapper py-4 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <div className="section-heading mb-2">Special Products</div>
@@ -255,7 +254,7 @@ const Home = () => {
           <SpecialProduct />
         </div>
       </Container>
-      <Container class1="popular-wrapper py-5  home-wrapper-2">
+      <Container class1="popular-wrapper py-4 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading mb-2">Our Popular Products</h3>
@@ -268,7 +267,7 @@ const Home = () => {
           <ProductCard />
         </div>
       </Container>
-      <Container class1="marque-wrapper py-5 home-wrapper-2">
+      <Container class1="marque-wrapper py-4 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <div className="marque-inner-wrapper card-wrapper">
@@ -302,7 +301,7 @@ const Home = () => {
           </div>
         </div>
       </Container>
-      <Container class1="blog-wrapper py-5  home-wrapper-2">
+      <Container class1="blog-wrapper py-4 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <h3 className="section-heading"> Our Latest Blogs</h3>

@@ -4,12 +4,12 @@
   box-sizing: border-box;
 }
 :root {
-  --color-030405: #030405;
+  --color-131616: #131616;
   --color-31353a: #31353a;
   --color-febd69: #e9aa57;
   --color-232f3e: #232f3e;
   --color-bf4800: #bf4800;
-  --color-f5f5f7: #f5f5f7;
+  --color-f0f0f0: #f0f0f0;
   --color-ededed: #ededed;
   --color-777777: #777777;
   --color-bf4800: #bf4800;
@@ -58,7 +58,7 @@ a, Link {
 .button:hover {
   background-color: var(--color-febd69);
   text-decoration: none;
-  color: #030405;
+  color: #131616;
 }
 
 
@@ -67,11 +67,13 @@ header {
   min-width: 1000px;
 }
 .header-top-strip {
-  background-color: var(--color-030405);
+  background-color: var(--color-131616);
   border-bottom: 1px solid var(--color- 31353a);
+  font-size: 14px;
 }
 .header-upper {
-  background-color: var(--color-030405);
+  background-color: var(--color-131616);
+  font-size: 14px;
 }
 .header-upper .input-group-text {
   background-color: var(--color-febd69);
@@ -92,18 +94,17 @@ header {
 .header-bottom .menu-links a,
 .header-bottom .dropdown button {
   color: white;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: 0.3;
-  text-transform: uppercase;
 }
 
 .header-bottom .dropdown button:focus {
   box-shadow: none;
 }
 .header-bottom .dropdown-menu {
-  background-color: var(--color-030405);
+  background-color: var(--color-131616);
   width: 100%;
   transform: translate3d(0px 57px 0px) !important;
 }
@@ -112,8 +113,8 @@ header {
   color: var(--color-febd69) !important;
 }
 .header-bottom .dropdown-item {
-  padding: 20px;
-  margin-bottom: 3px;
+  padding: 10px;
+  margin-bottom: 1px !important;
   border-bottom: 1px solid var(--color- 31353a);
 }
 /* Header Part End Here*/
@@ -152,7 +153,7 @@ footer .input-group .form-control {
   font-weight: 400;
   line-height: 24px;
   color: var(--color-bf4800);
-  margin: 0 0 10px;
+  margin: 0 0 10px !important;
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
@@ -167,7 +168,7 @@ footer .input-group .form-control {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.4px;
-  color: var(--color-030405);
+  color: var(--color-131616);
 }
 .small-banner-content {
   top: 15%;
@@ -178,7 +179,7 @@ footer .input-group .form-control {
   font-weight: 400;
   line-height: 24px;
   color: var(--color-bf4800);
-  margin: 0 0 10px;
+  margin: 0 0 10px !important;
   letter-spacing: 0.3px;
   text-transform: uppercase;
 }
@@ -193,7 +194,7 @@ footer .input-group .form-control {
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.4px;
-  color: var(--color-030405);
+  color: var(--color-131616);
 }
 .small-banner {
   width: 49%;
@@ -203,7 +204,7 @@ footer .input-group .form-control {
 }
 /* home-wrapper-2*/
 .home-wrapper-2 {
-  background-color: var(--color-f5f5f7);
+  background-color: var(--color-f0f0f0);
 }
 /* home-wrapper-2 End Here*/
 
@@ -260,7 +261,7 @@ footer .input-group .form-control {
 }
 .blog-content h5 {
   font-size: 18px;
-  color: var(--color-030405);
+  color: var(--color-131616);
 }
 .blog-content p.desc {
   font-size: 13px;
@@ -268,10 +269,10 @@ footer .input-group .form-control {
   color: var(--color-777777);
 }
 .section-heading {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 32px;
   font-weight: 500;
-  margin-bottom: 30px;
+  margin-bottom: 25px !important;
 }
 .single-block-card h3{
   font-size: 24px;
@@ -286,7 +287,7 @@ footer .input-group .form-control {
 .single-blog-card a{
   font-size: 18px;
   color: var(--color-777777);
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 /* Blog part Ends Here*/
 /* Product part */
@@ -321,7 +322,7 @@ footer .input-group .form-control {
 .product-card p.description{
   font-size: 13px;
   color: var(--color-777777);
-  margin-right: 20px;
+  margin-right: 20px !important;
 }
 .action-bar {
   top: 10%;
@@ -355,7 +356,7 @@ footer .input-group .form-control {
   line-height: 20px;
   font-weight: 400px;
   color: white;
-  margin-bottom: 7px;
+  margin-bottom: 7px !important;
   text-transform: uppercase;
 }
 .famous-content h6{
@@ -499,7 +500,7 @@ footer .input-group .form-control {
   text-align: left;
 }
 .contact-inner-wrapper form .form-control{
-  background-color: var(--color-f5f5f7);
+  background-color: var(--color-f0f0f0);
   border-radius: 10px;
   border-color:transparent ;
   padding: 10px;
@@ -560,8 +561,8 @@ footer .input-group .form-control {
 }
 .awth-card .form-control{
   height: 50px;
-  background-color: var(--color-f5f5f7);
-  color: var(--color-030405);
+  background-color: var(--color-f0f0f0);
+  color: var(--color-131616);
   font-size: 14px;
   border-radius: 10px;
   border-color: transparent;
@@ -573,7 +574,7 @@ footer .input-group .form-control {
 }
 .sign-up{
   background-color: var(--color-febd69);
-  color: var(--color-030405) !important;
+  color: var(--color-131616) !important;
 }
 .sign-up:hover{
   background-color: var(--color-232f3e);
