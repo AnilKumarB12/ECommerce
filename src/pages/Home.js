@@ -44,7 +44,7 @@ const Home = () => {
                   <h5>Laptop Max</h5>
                   <p>
                     From ₹1699.00 or
-                    <br /> ₹64.62/mo
+                    <br/> ₹64.62/mo
                   </p>
                 </div>
               </div>
