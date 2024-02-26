@@ -6,7 +6,7 @@
 :root {
   --color-131616: #131616;
   --color-31353a: #31353a;
-  --color-febd69: #e9aa57;
+  --color-febd69: #A45EE5;
   --color-232f3e: #232f3e;
   --color-bf4800: #bf4800;
   --color-f0f0f0: #f0f0f0;
@@ -84,9 +84,14 @@ header {
 .header-upper .input-group .form-control {
   border-radius: 0.3rem 0 0 0.3rem;
 }
-.header-upper .header-upper-link img {
-  width: 35px;
-  height: 35px;
+.image {
+  width: 30px !important;
+  height: 30px !important;
+}
+.cart{
+  width: 40px !important;
+  height: 40px !important;
+  color: var(--color-febd69);
 }
 .header-bottom {
   background-color: var(--color-232f3e);
@@ -330,7 +335,7 @@ footer .input-group .form-control {
   transition: 0.3s;
 }
 .wishlist-icon {
-  top: 3%;
+  top: 2%;
   right: 15px;
 }
 /* Product part Ends Here*/
@@ -578,7 +583,7 @@ footer .input-group .form-control {
 }
 .sign-up:hover{
   background-color: var(--color-232f3e);
-  color: white;
+  color: white !important;
 }
 .awth-card p{
   font-size: 13px;

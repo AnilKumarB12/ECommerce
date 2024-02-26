@@ -4,12 +4,12 @@ import { BsSearch } from "react-icons/bs";
 import compare from "../images/compare.svg";
 import wishlist from "../images/wishlist.svg";
 import user from "../images/user.svg";
-import cart from "../images/cart.svg";
-import menu from "../images/menu.svg";
+import { IoIosMenu } from "react-icons/io";
+import { GiShoppingCart } from "react-icons/gi";
 const Header = () => {
   return (
     <>
-      <header className="header-top-strip">
+     {/* <header className="header-top-strip">
         <div className="container-xxl">
           <div className="row">
             <div className="col-6">
@@ -27,7 +27,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-  </header> 
+  </header> */}
       <header className="header-upper py-2">
         <div className="container-xxl">
           <div className="row align-items-center">
@@ -55,7 +55,7 @@ const Header = () => {
               <div className="header-upper-links d-flex align-items-center justify-content-between">
                 <div>
                   <Link to="/Compare-product" className="d-flex align-items-center gap-10 text-white">
-                    <img src={compare} alt="compare"></img>
+                    <img src={compare} className="image" alt="compare"></img>
                     <p className="mb-0">
                       Compare <br /> Products
                     </p>
@@ -63,7 +63,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link  to="/wishlist"className="d-flex align-items-center gap-10 text-white">
-                    <img src={wishlist} alt="wishlist"></img>
+                    <img src={wishlist} className="image" alt="wishlist"></img>
                     <p className="mb-0">
                       Favorite <br /> Wishlist
                     </p>
@@ -71,7 +71,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link to="/login" className="d-flex align-items-center gap-10 text-white">
-                    <img src={user} alt="user"></img>
+                    <img src={user} className="image" alt="user"></img>
                     <p className="mb-0">
                       Login <br /> My Account
                     </p>
@@ -79,8 +79,8 @@ const Header = () => {
                 </div>
                 <div>
                   <Link to="/cart"className="d-flex align-items-center gap-10 text-white">
-                    <img src={cart} alt="cart"></img>
-                    <div className="d-flex flex-column gap-10">
+                  <GiShoppingCart className="cart"/>
+                    <div className="d-flex flex-column gap-5">
                       <span className="badge bg-white text-dark ">0</span>
                       <p className="mb-0">500</p>
                     </div>
@@ -99,20 +99,19 @@ const Header = () => {
                 <div>
                   <div className="dropdown">
                     <button
-                      className="btn btn-secondary dropdown-toggle bg-transparent border-0 gap-15 d-flex align-items-center"
+                      className="btn btn-secondary bg-transparent border-0 gap-5 d-flex align-items-center"
                       type="button"
                       id="dropdownMenuButton1"
                       data-bs-toggle="dropdown"
                       aria-expanded="false"
                     >
-                      <img src={menu} alt="menu" />
+                      <IoIosMenu className="image" />
                       <span className="me-5 d-inline-block">
                         Shop Categories
                       </span>
                     </button>
                     <ul
                       className="dropdown-menu"
-                      aria-labelledby="dropdownMenuButton1"
                     >
                       <li>
                         <Link className="dropdown-item text-white" to="">
@@ -133,7 +132,7 @@ const Header = () => {
                   </div>
                 </div>
                 <div className="menu-links">
-                  <div className="d-flex align-items-center gap-15">
+                  <div className="d-flex align-items-center gap-20">
                     <NavLink className="nav" to="/">
                       Home
                     </NavLink>
