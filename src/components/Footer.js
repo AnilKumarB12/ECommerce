@@ -111,7 +111,7 @@ const Footer = () => {
             <div className="col-12">
               <p className="text-align-center mb-0 text-white">
                 {" "}
-                &copy; {new Date().getFullYear()}: Powered by DevCorner
+                &copy; {new Date().getFullYear()}: Powered by PulseGear
               </p>
             </div>
           </div>

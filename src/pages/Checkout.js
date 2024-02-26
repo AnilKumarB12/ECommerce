@@ -11,7 +11,7 @@ const Checkout = () => {
                 <div className="row">
                     <div className="col-7">
                         <div className="checkout-select-data">
-                            <h3 className="website-name">DevCorner</h3>
+                            <h3 className="website-name">PulseGear</h3>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item"><Link className='text-dark total-price ' to="/cart" >Cart</Link></li>
