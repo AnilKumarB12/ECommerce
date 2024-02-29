@@ -14,7 +14,7 @@ const BlogCard = () => {
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout.
           </p>
-          <Link className="button mt-3" to="">
+          <Link className="button mt-3" to="/blog/:id">
             Read More
           </Link>
         </div>

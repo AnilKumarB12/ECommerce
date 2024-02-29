@@ -40,9 +40,9 @@ const SpecialProduct = () => {
             <div className="prod-count my-2">
               <p>Product: 5</p>
 
-              <div class="progress" style={{ height: "8px",width:"85%" }}>
+              <div className="progress" style={{ height: "8px",width:"85%" }}>
                 <div
-                  class="progress-bar"
+                  className="progress-bar"
                   role="progressbar"
                   style={{ width: "25%" }}
                   aria-valuenow="25"

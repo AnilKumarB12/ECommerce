@@ -5,6 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
+import newsletter from "../images/newsletter.png";
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
-                <img src="images/newsletter.png" alt="newsletter" />
+                <img src={newsletter} alt="newsletter" />
                 <h3 className="mb-0 text-white">Sign Up for News Letter</h3>
               </div>
             </div>
@@ -28,7 +29,7 @@ const Footer = () => {
                   aria-label="Your Email Address"
                   aria-describedby="basic-addon2"
                 />
-                <span className="input-group-text py-0" id="basic-addon2">
+                <span className="input-group-text button py-0" id="basic-addon2">
                   Subscribe
                 </span>
               </div>
@@ -77,11 +78,11 @@ const Footer = () => {
             <div className="col-3">
               <h4 className="text-white mb-4">Information</h4>
               <div className="footer-links d-flex flex-column">
-                <Link className="text-white py-2 mb-1">Privacy Policy</Link>
-                <Link className="text-white py-2 mb-1">Refund Policy</Link>
-                <Link className="text-white py-2 mb-1">Shipping Policy</Link>
-                <Link className="text-white py-2 mb-1">Terms & Conditions</Link>
-                <Link className="text-white py-2 mb-1">Blogs</Link>
+                <Link to='/Privacy Policy' className="text-white py-2 mb-1">Privacy Policy</Link>
+                <Link to="/Refund Policy" className="text-white py-2 mb-1">Refund Policy</Link>
+                <Link to="/Shipping Policy" className="text-white py-2 mb-1">Shipping Policy</Link>
+                <Link to="/Terms And Conditions" className="text-white py-2 mb-1">Terms & Conditions</Link>
+                <Link to="" className="text-white py-2 mb-1">Blogs</Link>
               </div>
             </div>
             <div className="col-3">
@@ -110,7 +111,7 @@ const Footer = () => {
             <div className="col-12">
               <p className="text-align-center mb-0 text-white">
                 {" "}
-                &copy; {new Date().getFullYear()}: Powered by DevCorner
+                &copy; {new Date().getFullYear()}: Powered by PulseGear
               </p>
             </div>
           </div>
